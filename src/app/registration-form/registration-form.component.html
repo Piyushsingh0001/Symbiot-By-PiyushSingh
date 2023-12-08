@@ -1,0 +1,21 @@
+<div class="registration-form">
+  <label for="registerGroup">Register Group</label>
+  <select id="registerGroup" class="form-control" [(ngModel)]="selectedRegisterGroup">
+    <option value="Load Profile">Load Profile</option>
+    <option value="Billing Profile">Billing Profile</option>
+    <option value="Instant Profile">Instant Profile</option>
+    <option value="Daily Profile">Daily Profile</option>
+    <option value="Yearly Profile">Yearly Profile</option>
+  </select>
+
+  <label for="register">Register</label>
+  <select id="register" class="form-control" [(ngModel)]="selectedRegister">
+    <option value="LPI">LPI</option>
+    <option value="BPI">BPI</option>
+    <option value="IPI">IPI</option>
+    <option value="DPI">DPI</option>
+    <option value="YPI">YPI</option>
+  </select>
+
+  <button class="btn btn-primary" (click)="onSubmit()">ADD</button>
+</div>

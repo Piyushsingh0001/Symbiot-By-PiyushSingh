@@ -1,0 +1,290 @@
+.oper{
+    position: absolute;
+    left: 12px;
+    top: 35px;
+}
+
+.AHP{
+    width: 67%;
+   
+    height: 25px;
+   
+  }
+  
+  
+  
+  .conmax-dv{ 
+    position: absolute;
+    margin-left: 7%;
+    top: 70px;
+    width: 27%;
+    height: 25px;
+  }
+  
+  .conopersdropdowen select{
+    position: absolute;
+    top: 34px;
+    padding: 5px;
+    margin-left: 7%;
+    width: 27%;
+    height: 27px;
+  }
+  .controllckdropdown1{
+    position: absolute;
+    top: 72px;
+    width: 19px;
+    left: 46%;
+  }
+ 
+  .conmax-dev p{
+    position: absolute;
+    left: 12px;
+    top: 68px;
+  }
+  .conmax-dev i{
+    left: -52%;
+      top: 86px;
+      position: absolute;
+      color: rgb(227, 227, 164);
+  }
+  #dropdown12{
+    width: 2%;
+    position: absolute;
+    left: 90%;
+    top: 42%;
+  }
+  .controldropdown select{
+    position: absolute;
+    top: 109px;
+    padding: 5px;
+    margin-left: 7%;
+    width: 27%;
+    height: 27px;
+  
+  }
+  .control-interval p{
+    position: absolute;
+    left: 12px;
+    top: 108px;
+  }
+  .Espresscontrol{
+    position: absolute;
+    top: 148px;
+    margin-left: 7%;
+    text-align: center;
+    width: 27%;
+    height: 25px;
+  }
+  
+  .express-control p{
+    position: absolute;
+    left: 12px;
+    top: 148px;
+  }
+  .control-variable{
+    width: 400px;
+    height: 171px;
+    border: 2px solid black;
+    margin-left: 89%;
+    margin-top: -30px;
+  }
+  .box-control{
+    margin-left: 11px;
+    position: absolute;
+    top: -25px;
+    background: white;
+  }
+  .cus-var-nav {
+    background-color: #3498db;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 20px;
+    color: white;
+}
+
+.custon-variable {
+    width: 375px;
+    height: 182px;
+    border: 2px solid black;
+    margin-left: 123%;
+  }
+  .cus-var-nav{
+    background-color:#3498db;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      height: 20px;
+      color: white;
+  }
+  
+  
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 7px;
+  }
+  
+  /* tr:nth-child(even) {
+    background-color: #dddddd;
+  } */
+  .wxy{
+    background: #dddddd;
+  }
+  .custon-variable i{
+    position: absolute;
+    top: 29px;
+    left: -52%;
+    color: rgb(227, 227, 164);
+  }
+
+  .dones1{
+    margin-left: 28%;
+    position: absolute;
+    top: 68px;
+    width: 6%;
+    align-items: center;
+    height: 30px;
+  }
+  
+  .constantvalue p{
+    position: relative;
+      margin-left: -21%;
+      margin-top: 11%;
+  }
+  .const-int{
+    position: absolute;
+    left: 18%;
+    top: 38%;
+    width: 20%;
+  }
+  .Max-power select{
+    margin-left: 12px;
+    height: 28px;
+  }
+  .General select{
+    margin-left: 29px;
+    height: 28px;
+    width: 54%;
+  }
+
+  .variablename p{
+    position: absolute;
+    left: 25px;
+    top: 48px;
+  }
+  .var-name{
+    position: absolute;
+    left: 158px;
+    top: 68px;
+    height: 30px;
+}
+.pl-mi select{
+  left: 40%;
+  top: 38%;
+  height: 30px;
+  position: absolute;
+  width: 5%;
+}
+
+.Max-powerr select{
+  left: 323px;
+  height: 28px;
+  width: 9%;
+  position: absolute;
+  top: 70px;
+}
+.Generall select{
+  left: 323px;
+  height: 28px;
+  width: 9%;
+  position: absolute;
+  top: 70px;
+}
+
+
+ 
+.mxt select{
+  left: 157px;
+  height: 28px;
+  width: 18%;
+  position: absolute;
+  top: 70px;
+}
+.thrh select{
+  left: 157px;
+  height: 28px;
+  width: 18%;
+  position: absolute;
+  top: 70px;
+}
+
+.custom-attr{
+  width: 2%;
+  left: 93%;
+  position: absolute;
+  top: 42%;
+}
+
+.dones11{
+  margin-left: 74%;
+  position: absolute;
+  top: 70px;
+  width: 7%;
+  align-items: center;
+  height: 30px;
+}
+
+.const-ints1{
+  position: absolute;
+  left: 62%;
+  top: 39%;
+  width: 22%;
+}
+
+.Max-power1 select{
+  left: 675px;
+  height: 28px;
+  width: 16%;
+  position: absolute;
+  top: 73px;
+}
+.mxt1 select{
+  left: 548px;
+  height: 28px;
+  width: 14%;
+  position: absolute;
+  top: 73px;
+}
+.thrh1 select{
+  left: 548px;
+  height: 28px;
+  width: 14%;
+  position: absolute;
+  top: 73px;
+}
+
+.var-name1{
+  position: absolute;
+  left: 548px;
+  top: 70px;
+  height: 30px;
+}
+.pl-mi1 select{
+  position: absolute;
+  left: 750px;
+  top: 71px;
+  width: 50px;
+  height: 28px;
+}
+.tab-cus i{
+  color: rgb(227, 227, 164);
+}

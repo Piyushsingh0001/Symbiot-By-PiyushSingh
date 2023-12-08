@@ -1,0 +1,215 @@
+.left-content {
+    width: 50%;
+    float: left; /* Left side takes 50% of the box */
+  }
+  
+/*.right-content {
+    width: 50%; /* Right side takes 50% of the box 
+    text-align: right;
+    float: right;
+  }*/
+ 
+  
+  .dropdown {
+    display: inline-block;
+  }
+  .checkbox {
+    margin-top: 10px; /* Adjust as needed */
+  }
+ /* #conversionCheckbox{
+  margin-top: 12%;
+  justify-content: space-evenly;
+  position: absolute;
+ } */
+ 
+ .con-checkboxe{
+  justify-content: space-evenly;
+  position: absolute;
+  top: 59%;
+  left: 1%;
+ }
+  .box-contents{
+    margin-left: 10px;
+    position: absolute;
+    top: -7px;
+    background: white;
+  }
+  .rectangular-box i{
+    position: absolute;
+    top: 5px;
+    margin-left: 97%;
+  }
+  .oper{
+    margin-left: -10%;
+    position: absolute;
+    margin-top: 4%;
+  }
+  .dropdowen select{
+    position: absolute;
+    top: 50px;
+    padding: 5px;
+    margin-left: 1%;
+    width: 25%;
+    height: 27px;
+  }
+  .bud-int{
+    margin-left: 44%;
+    position: absolute;
+    top: 37px;
+    width: 33%;
+  }
+  .bound i{
+    margin-left: 78%;
+    position: absolute;
+    top: 45px;
+    color: rgb(227, 227, 164);
+  }
+
+  .conlckdropdown1{
+    margin-left: 83%;
+    position: absolute;
+    top: 41px;
+    width: 17px;
+  }
+ 
+
+
+  .bound p{
+    position: absolute;
+    top: 40px;
+    margin-left: 29%;
+
+  }
+  .max-dev p{
+    margin-left: 29%;
+    position: absolute;
+    top: 85px;
+  }
+  .max-dv{
+   
+    margin-left: 44%;
+    position: absolute;
+    top: 82px;
+    width: 33%;
+
+  }
+  .max-dev i{
+    margin-left: 78%;
+    position: absolute;
+    top: 88px;
+    color: rgb(227, 227, 164);
+  }
+
+  .conlckdropdown2{
+    margin-left: 83%;
+    position: absolute;
+    top: 87px;
+    width: 17px;
+  
+  }
+
+  .right-content p{
+    position: absolute;
+    top: 125px;
+    margin-left: 29%;
+  }
+  .right-content select{
+    margin-left: 193%;
+    width: 140%;
+    height: 30px;
+    margin-top: 46%;
+  }
+  .dones1{
+    margin-left: 73%;
+    position: absolute;
+    top: 41px;
+    width: 8%;
+    align-items: center;
+    height: 30px;
+}
+  
+  .constantvalue p{
+    position: relative;
+      margin-left: -21%;
+      margin-top: 11%;
+  }
+  .const-int{
+    position: absolute;
+    left: 55%;
+    top: 23%;
+    width: 29%;
+  }
+  .Max-power select{
+    left: 684px;
+    height: 28px;
+    width: 18%;
+    position: absolute;
+    top: 39px;
+  }
+  .General select{
+    left: 684px;
+    height: 28px;
+    width: 18%;
+    position: absolute;
+    top: 39px;
+  }
+  .dones1m{
+    margin-left: 73%;
+    position: absolute;
+    top: 84px;
+    width: 8%;
+    align-items: center;
+    height: 30px;
+  }
+.const-max{
+  position: absolute;
+  left: 55%;
+  top: 47%;
+  width: 29%
+}
+
+.Max-powers select{
+  left: 684px;
+  height: 28px;
+  width: 18%;
+  position: absolute;
+  top: 84px;
+}
+.Generals select{
+  left: 684px;
+  height: 28px;
+  width: 18%;
+  position: absolute;
+  top: 84px;
+}
+
+.mxt select{
+  left: 502px;
+  height: 28px;
+  width: 19%;
+  position: absolute;
+  top: 39px;
+}
+.thrh select{
+  left: 502px;
+  height: 28px;
+  width: 19%;
+  position: absolute;
+  top: 39px;
+}
+
+.mxts select{
+  left: 502px;
+  height: 28px;
+  width: 19%;
+  position: absolute;
+  top: 84px;
+}
+.thrhs select{
+  left: 502px;
+  height: 28px;
+  width: 19%;
+  position: absolute;
+  top: 84px;
+
+}

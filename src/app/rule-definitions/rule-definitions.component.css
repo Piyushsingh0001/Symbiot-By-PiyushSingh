@@ -1,0 +1,146 @@
+.blue-navbar {
+  background-color: #3498db; /* Blue background color */
+  color: #fff; /* White text color */
+  padding: 10px;
+}
+.rule-dropdown {
+  position: absolute;
+  top: -10px;
+  left: 115%;
+  width: 115%;
+}
+.condition-container {
+  position: relative;
+  cursor: pointer;
+  
+}
+
+
+.blue-navbar span,
+.blue-navbar i,
+.blue-navbar select {
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+.fa-plus{
+  background-color: rgb(0, 183, 255);
+  color: white;
+  padding: 6px;
+  border-radius: 7px;
+  margin-left: 98%;
+  position: relative;
+  top: -40px;
+}
+
+.rule-definitions-container {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px; /* Adjust as needed */
+}
+
+.accordion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 19%;
+  background-color: white;
+  /* border: 1px solid #ddd; */
+  padding: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: -10px;
+}
+
+/* i.fas.fa-plus {
+  margin-left: 10px;
+} */
+
+.panel {
+  display: none;
+  padding: 10px;
+  background-color: #f5f5f5;
+}
+
+.panel.active {
+  display: block;
+}
+.rules-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px; /* Add margin between the Blue Bar and Rules box */
+}
+
+/* Add specific styling for each rule component if needed */
+app-sum-test,
+app-constant-test,
+app-spike-test,
+app-missing-data-test,
+app-history-test,
+app-control-test,
+app-custom-test {
+  flex: 1; /* Equal flex distribution among rule components */
+  margin: 5px; /* Add margin between rule components */
+}
+
+
+
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #333;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.rectangular-box {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  position: relative;
+ display: flex;
+ width: 102%;
+ height: 180px;
+ left: -3%;
+
+  /* Define styles for the rectangular box as needed */
+}
+.rectangular-box i{
+  margin-left: 96%;
+  position: absolute;
+}
+
+.rectangular-box a{
+  text-decoration: none;
+}
+.fa-solid{
+  position: relative;
+  left: 61%;
+}
+
+
+

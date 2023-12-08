@@ -1,0 +1,183 @@
+
+<div class="express-cust" >
+    <p>Expression</p>
+    <input type="text" class="Espresscust"  placeholder="X == A + B"  >
+    </div>
+    
+    
+    
+    <div class="custon-variable" >
+    <div  class="cus-var-nav">
+    Variables
+    </div>
+    <div class="tab-cus">
+    
+    <table>
+    <tr>
+      <th>  </th>
+      <th>Name</th>
+      <th>Value</th>
+    
+    </tr>
+    <tr >
+      <td>0</td>
+      <td>A</td>
+      <td><input type="text" class="wxy" placeholder="30.00kWh"  *ngIf="selectedOption2 !== 'Constant' && selectedOption2 !== 'Attribute' && selectedOption2 !== 'ResultFrom'">    
+        
+        <i class="fa-solid fa-lock" *ngIf="selectedOption2 !== 'Constant' && selectedOption2 !== 'Attribute' && selectedOption2 !== 'ResultFrom'"></i>
+    
+
+     
+
+
+
+        <select id="dropdown12" name="dropdown1"  *ngIf="selectedOption2 !== 'Constant' && selectedOption2 !== 'Attribute' && selectedOption2 !== 'ResultFrom'">
+          
+          <option value="option1"></option>
+          <option value="option2">Kwh</option>
+          <option value="option3">wh</option>
+          <option value="option1">V</option>
+          <option value="option2">Amp</option>
+         
+        </select>
+    
+        <select class="custom-attr" name="dropdown1" [(ngModel)]="selectedOption2">
+      
+          <option ></option>
+          <option value="Constant">Constant</option>
+          <option value="Attribute">Attribute</option>
+          <option value="ResultFrom">Result From</option>
+         
+        </select>
+
+    
+    </td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>B</td>
+      <td>
+    
+        <select   class="AHP">
+            
+          <option value="leftOption1">AHP_ActiveEnergyPlus_ADV_T0</option>
+          <option value="leftOption2">AHP_ActiveEnergyMinus_ADV_T0  </option>
+          <option value="leftOption2"> AHP_ActiveEnergyPlus_CUM_T0 </option>
+          <option value="leftOption2">AHP_ActiveEnergyMinus_CUM_T0</option>
+        <option value="leftOption2">>=</option>
+        <option value="leftOption2">!=</option>
+          </select>
+    
+    
+      </td>
+    </tr>
+    <!-- <tr>
+      <td>2</td>
+      <td>c</td>
+      <td>Austria</td>
+    </tr> -->
+    
+    </table>
+    </div>
+    </div>
+    
+    
+
+
+
+    <div *ngIf="selectedOption2 === 'Constant'">
+
+
+
+      <select class="dones1" name="constantDropdown">
+     
+       
+                  <option value="option1">Units</option>
+                  <option value="option2">Kwh</option>
+                  <option value="option3">wh</option>
+                  <option value="option1">V</option>
+                  <option value="option2">Amp</option>
+      </select>
+    
+      <div class="constantvalue">
+        <!-- <p>Constant Value</p> -->
+        <input type="text" class="const-int"  placeholder="Provide Constant value with units"  >
+    
+    
+    </div>
+    
+    </div>
+    
+  
+    
+    <div *ngIf="selectedOption2 === 'Attribute'">
+      <div class="Max-power">
+       
+        <select   [(ngModel)]="selectedOption3"   >
+          <option value="ValidationAttribute">Validation Attribute </option>
+          <option value="GeneralAttribute">General Attribute</option>
+        </select>
+      </div>
+<!--       
+      <div class="General">
+     
+        <select name="" id=""   [(ngModel)]="selectedOption4"  *ngIf="selectedOption4 !== 'GeneralAttribute'">
+          <option value="GeneralAttribute">General Attribute</option>
+        </select>
+      </div> -->
+     
+    </div>
+    
+    <div *ngIf="selectedOption2 === 'ResultFrom'">
+
+      <div class="variablename">
+        <!-- <p>Variable Name</p> -->
+        <input type="text" class="var-name"  placeholder="Provide Variable Name"  >
+    </div>
+  <div class="pl-mi">
+    <select name="" id="">
+      <option value=""></option>
+      <option value="leftOption1">LPI_ActiveEnergyPlus_ADV_T0</option>
+      <option value="leftOption2">LPI_ActiveEnergyMinus_ADV_T0  </option>
+      <option value="leftOption2">LPI_ActiveEnergyPlus_CUM_T0 </option>
+      <option value="leftOption2">LPI_ActiveEnergyMinus_CUM_T0</option>
+      <option value="leftOption1">BPI_ActiveEnergyPlus_ADV_T0</option>
+      <option value="leftOption2">BPI_ActiveEnergyMinus_ADV_T0  </option>
+      <option value="leftOption2">BPI_ActiveEnergyPlus_CUM_T0 </option>
+      <option value="leftOption2">BPI_ActiveEnergyMinus_CUM_T0</option>
+      <option value="leftOption1">DPI_ActiveEnergyPlus_ADV_T0</option>
+      <option value="leftOption2">DPI_ActiveEnergyMinus_ADV_T0  </option>
+      <option value="leftOption2">DPI_ActiveEnergyPlus_CUM_T0 </option>
+      <option value="leftOption2">DPI_ActiveEnergyMinus_CUM_T0</option>
+      <option value="leftOption1">HPI_ActiveEnergyPlus_ADV_T0</option>
+      <option value="leftOption2">HPI_ActiveEnergyMinus_ADV_T0  </option>
+      <option value="leftOption2">HPI_ActiveEnergyPlus_CUM_T0 </option>
+      <option value="leftOption2">HPI_ActiveEnergyMinus_CUM_T0</option>
+      <option value="leftOption1">YPI_ActiveEnergyPlus_ADV_T0</option>
+      <option value="leftOption2">YPI_ActiveEnergyMinus_ADV_T0  </option>
+      <option value="leftOption2">YPI_ActiveEnergyPlus_CUM_T0 </option>
+      <option value="leftOption2">YPI_ActiveEnergyMinus_CUM_T0</option>
+    </select>
+  </div>
+    </div>
+
+
+
+
+
+
+
+  
+    <div  class="mxt" *ngIf="selectedOption3 === 'ValidationAttribute'">
+      <select name="" id="">
+        <option value="MaxPowerThreshold">MaxPowerThreshold</option>
+      </select>
+    
+    </div>
+    
+    <div  class="thrh" *ngIf="selectedOption3 === 'GeneralAttribute'">
+      <select name="" id="">
+        <option value="">Threshold</option>
+      </select>
+    
+    </div>

@@ -1,0 +1,78 @@
+/* Style for the navigation bar background */
+.navbar {
+    background-color: #000;
+  }
+  
+  /* Style for the "Symbiot" logo */
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  /* Style for the navigation links */
+  .nav-link{
+    color: blue;
+  }
+ 
+  /* Style for the "MDM Operator" link when it's the active page */
+  .blue-text {
+    color: blue;
+  }
+  
+  /* Style for the "POWERED BY ISKRAEMECO" text */
+  .powered-by {
+    font-size: 12px;
+    color: #a0a0a0;
+  }
+  
+/* Style for the left and right sections */
+.col-md-2 {
+    /* Left side (20%) */
+    background-color: #f2f2f2;
+    height: 100vh;
+  }
+  
+  .col-md-10 {
+    /* Right side (80%) */
+    background-color: #e6e6e6;
+    height: 100vh;
+  }
+  
+  /*  #3498db Style for the left navigation bar */
+  .left-navbar {
+    background-color: #003da6;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  /* Style for left navigation links (white text color) */
+  .left-navbar .nav-link {
+    color: #fff;
+  }
+  
+  /* #3498db Style for the right navigation bar */
+  .right-navbar {
+    background-color: #003da6;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  /* Style for right navigation links (white text color) */
+  .right-navbar .nav-link {
+    color: #fff;
+  }
+  /* Style for the spinner */
+.spinner {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px; /* Adjust the spacing between search icon and spinner as needed */
+  }
+  /* Style for the light gray dropdowns */
+.dropdowns button {
+    background-color: #bab5b5; /* Light gray background color */
+  width: 100%;
+  }
+  

@@ -1,0 +1,36 @@
+/* Style for the checkbox container */
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin: 0px 20px 0px 30px;
+
+}
+
+/* Style for the checkboxes */
+.checkbox-container input[type="checkbox"] {
+  margin-right: 45px; /* Add margin between checkboxes */
+  
+}
+.form-check-label1{
+  margin-left: 120px;
+  margin-top: 12px;
+}
+.form-check-label2{
+  margin-left: -85px;
+    margin-top: 12px;
+}
+#checkbox1{
+  margin-left: -105px;
+}
+#checkbox2{
+  margin-left: 192px;
+}
+.input-container span{
+  margin-top: 15%;
+  position: relative;
+  top: 30px;
+  right: 136px;
+}
+.form-control{
+  margin-left: -77px;
+}

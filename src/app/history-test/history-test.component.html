@@ -1,0 +1,246 @@
+
+<div class="hisopera-content"  >
+          
+    <p class="oper">Operations</p>
+
+    <div class="hisopersdropdowen">
+      
+      <select>
+        
+        <option value="leftOption1">==</option>
+      <option value="leftOption2"> < </option>
+      <option value="leftOption2"> > </option>
+      <option value="leftOption2"><=</option>
+      <option value="leftOption2">>=</option>
+      <option value="leftOption2">!=</option>
+        </select>
+      </div>
+    </div>
+    <div class="hismax-dev"  >
+      <p>Max Deviation</p>
+      <input type="text" class="hismax-dv"  placeholder="Provide allowed max devations on bound" *ngIf="selectedOption2 !== 'Constant'  && selectedOption2 !== 'Attribute' && selectedOption2 !== 'ResultFrom'" >
+      <i class="fa-solid fa-lock"    *ngIf="selectedOption2 !== 'Constant'  && selectedOption2 !== 'Attribute' && selectedOption2 !== 'ResultFrom'" ></i>
+      <select class="hislckdropdown1" name="dropdown1" [(ngModel)]="selectedOption2">
+      
+        <option ></option>
+        <option value="Constant">Constant</option>
+        <option value="Attribute">Attribute</option>
+       
+       
+       
+      </select>
+      
+    
+     
+    </div>
+    <div class="daydropdowns"  >
+        <p>Averging Period</p>
+        <select>
+           <option *ngFor="let day of daysOfTheMonth">{{ day }}</option>
+          </select>
+        </div>
+        <div class="daydropdown"  >
+          
+          <select>
+            <option *ngFor="let week of weeksOfTheMonth">{{ week }}</option>
+          </select>
+        </div>
+
+
+
+
+<div class="history-box" >
+  <p>History</p>
+
+
+  <div class="takedropdowns">
+    <p>Take</p>
+    <select>
+       <option *ngFor="let day of daysOfTheMonth">{{ day }}</option>
+      </select>
+    </div>
+    <div class="max-day-history">
+      <p>Max</p>
+      <select>
+         <option *ngFor="let day of daysOfTheMonth">{{ day }}</option>
+        </select>
+    </div>
+    <div class="History-interval">
+      <p>History Interval</p>
+      <select>
+        <option *ngFor="let week of historyOfTheMonth">{{ week }}</option>
+      </select>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="his-formula" >
+          <p>Formula</p>
+          <div class="hisformula">
+            <select   *ngIf="selectedOption1 !== 'Constant'  && selectedOption1 !== 'Attribute' && selectedOption1 !== 'ResultFrom'">
+              <option value="">AVG(H)</option>
+              <option value="">MAX(H)</option>
+              <option value="">MIN(H)</option>
+            </select>
+            <i class="fa-solid fa-lock"   *ngIf="selectedOption1 !== 'Constant'  && selectedOption1 !== 'Attribute' && selectedOption1 !== 'ResultFrom'"></i>
+          
+            <div class="hislckdropdown2"  >
+              <select [(ngModel)]="selectedOption1">
+      
+                <option ></option>
+        <option value="Constant">Constant</option>
+        <option value="Attribute">Attribute</option>
+      
+       
+               
+              </select>
+
+
+
+     
+
+
+            </div>
+           
+
+
+          </div>
+        </div>
+
+
+        
+  <div *ngIf="selectedOption2 === 'Constant'">
+
+
+    <!-- Additional dropdown for Constant -->
+    <select class="dones1" name="constantDropdown">
+      
+     
+                <option value="option1">Units</option>
+                <option value="option2">Kwh</option>
+                <option value="option3">wh</option>
+                <option value="option1">V</option>
+                <option value="option2">Amp</option>
+    </select>
+  
+    <div class="constantvalue">
+      <!-- <p>Constant Value</p> -->
+      <input type="text" class="const-int"  placeholder="Provide Constant value with units"  >
+  
+  
+  </div>
+  
+  </div>
+
+  <div *ngIf="selectedOption2 === 'Attribute'">
+    <div class="Max-powerr">
+     
+      <select   [(ngModel)]="selectedOption3"  >
+        <option value="ValidationAttribute">Validation Attribute </option>
+        <option value="GeneralAttribute">General Attribute</option>
+      </select>
+    </div>
+    
+    <!-- <div class="Generall">
+   
+      <select name="" id=""   [(ngModel)]="selectedOption4"  *ngIf="selectedOption4 !== 'GeneralAttribute'">
+        <option value="GeneralAttribute">General Attribute</option>
+      </select>
+    </div> -->
+   
+  </div>
+
+
+
+
+
+
+  <div *ngIf="selectedOption1 === 'Constant'">
+
+
+    <!-- Additional dropdown for Constant -->
+    <select class="dones1for" name="constantDropdown">
+      
+     
+                <option value="option1">Units</option>
+                <option value="option2">Kwh</option>
+                <option value="option3">wh</option>
+                <option value="option1">V</option>
+                <option value="option2">Amp</option>
+    </select>
+  
+    <div class="constantvalue">
+      <!-- <p>Constant Value</p> -->
+      <input type="text" class="const-for"  placeholder="Provide Constant value with "  >
+  
+  
+  </div>
+  
+  </div>
+
+
+  
+  <div *ngIf="selectedOption1 === 'Attribute'">
+    <div class="Max-powerss"  >
+      <select  [(ngModel)]="selectedOption7" >
+        <option value="ValidationAttribute">Validation Attribute </option>
+        <option value="GeneralAttribute">General Attribute</option>
+      </select>
+    </div>
+    
+    <!-- <div class="Generalss">
+     
+      <select name="" id="" [(ngModel)]="selectedOption8"  *ngIf="selectedOption8 !== 'GeneralAttribute'">
+        <option value="GeneralAttribute">General Attribute</option>
+      </select>
+    </div> -->
+   
+  </div>
+
+
+   
+<div  class="mxt" *ngIf="selectedOption3 === 'ValidationAttribute'">
+  <select name="" id="">
+    <option value="MaxPowerThreshold">MaxPowerThreshold</option>
+  </select>
+
+</div>
+
+<div  class="thrh" *ngIf="selectedOption3 === 'GeneralAttribute'">
+  <select name="" id="">
+    <option value="">Threshold</option>
+  </select>
+
+</div>
+
+
+<div  class="mxts" *ngIf="selectedOption7 === 'ValidationAttribute'">
+  <select name="" id="">
+    <option value="MaxPowerThreshold">MaxPowerThreshold</option>
+  </select>
+
+</div>
+
+<div  class="thrhs" *ngIf="selectedOption7 === 'GeneralAttribute'">
+  <select name="" id="">
+    <option value="">Threshold</option>
+  </select>
+
+</div>

@@ -1,0 +1,45 @@
+<div class="result-filter-box">
+  <button class="accordion">Filter Results</button>
+  <i class="fa-solid fa-circle-chevron-down" (click)="toggleAccordion()"></i>
+  <div class="panel">
+      <div class="left-filter">
+          <div class="filter-section">
+              <input type="checkbox" id="leftCheckbox" class="form-check-input">
+              <label for="leftCheckbox" class="form-check-label"> Results to be validated</label>
+              <br> <br>
+              <div class="label-dropdown">
+                  <label for="leftOrigin">Origin</label>
+                  <app-dropdown [options]="originOptions"></app-dropdown>
+              </div>
+              <div class="label-dropdown">
+                  <label for="leftBySource">By source</label>
+                  <app-dropdown [options]="sourceOptions"></app-dropdown>
+              </div>
+              <div class="label-dropdown">
+                  <label for="leftByStatus">By status</label>
+                  <app-dropdown [options]="statusOptions"></app-dropdown>
+              </div>
+          </div>
+      </div>
+      <div class="right-filter">
+          <div class="filter-section">
+              <input type="checkbox" id="rightCheckbox" class="form-check-input">
+              <label for="rightCheckbox" class="form-check-label">Results to be used in tests</label>
+              <br> <br>
+              <div class="label-dropdown">
+                  <label for="rightOrigin">Origin</label>
+                  <app-dropdown [options]="originOptions"></app-dropdown>
+              </div>
+              <div class="label-dropdown">
+                  <label for="rightBySource">By source</label>
+                  <app-dropdown [options]="sourceOptions"></app-dropdown>
+              </div>
+              <div class="label-dropdown">
+                  <label for="rightByStatus">By status</label>
+                  <app-dropdown [options]="statusOptions"></app-dropdown>
+              </div>
+          </div>
+      </div>
+  </div>
+  <app-rule-definitions></app-rule-definitions>
+</div>

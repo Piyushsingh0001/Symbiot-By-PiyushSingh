@@ -1,0 +1,94 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="navbar-brand-container">
+      <a class="navbar-brand" href="#">SYMBIOT</a>
+      <div class="powered-by">POWERED BY ISKRAEMECO</div>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link blue-text" href="#">MDM Operator <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/documents">Documents</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/activities">Activities</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/schedules">Schedules</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2">
+        <!-- Left side content (20%) -->
+
+        <nav class="left-navbar">
+          <!-- Left navigation links (removed) -->
+          
+        Documents
+        </nav>
+        <!-- Search box with icon and spinner icon -->
+        <div class="search-container">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search...">
+            <div class="input-group-append">
+              <span class="input-group-text">
+                <i class="fas fa-search"></i>
+              </span>
+            </div>
+          </div>
+          <div class="dropdowns">
+            <div class="accordion">
+            <!-- First dropdown with light gray background -->
+            <!-- <select class="form-control light-gray-dropdown"> -->
+              <button (click)="toggleAccordion('validation')">Validation</button>
+              <div *ngIf="activeAccordion === 'validation'">
+                <p>Validation Documents1</p>
+                <p>Validation Documents2</p>
+                <p>Validation Documents3</p>
+              </div>
+            </div>
+            <!-- Second dropdown with light gray background -->
+            <div class="accordion">
+              <button (click)="toggleAccordion('estimation')">Estimation</button>
+              <div *ngIf="activeAccordion === 'estimation'">
+                <p>EstimationDocuments1</p>
+                <p>EstimationDocuments2</p>
+                <p>EstimationDocuments3</p>
+              </div>
+            </div>
+            <!-- Third dropdown with light gray background -->
+            <div class="accordion">
+              <button (click)="toggleAccordion('aggregation')">Aggregation</button>
+              <div *ngIf="activeAccordion === 'aggregation'">
+                <p>AggregationDocuments1</p>
+                <p>AggregationDocuments2</p>
+                <p>AggregationDocuments3</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-10">
+        <!-- Right side content (80%) -->
+        <!-- Right navigation links (removed) -->
+        <nav class="right-navbar">
+          <!-- Right navigation links (removed) -->
+          Create Documents
+        </nav>
+
+      
+        <router-outlet></router-outlet>
+      </div>
+     
+    </div>
+  
+  </div>
+  

@@ -1,0 +1,110 @@
+/* Style for the Result Filter Box (Accordion) */
+.result-filter-box {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 20px; /* Adjust the margin as needed */
+   background: white;
+   margin-left: -22%;
+  }
+  
+  /* Style for the accordion button */
+  .accordion {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 0px;
+    width: 15%;
+    text-align: left;
+    border: none;
+  }
+  
+  /* Style for the panel (content inside the accordion) */
+  .panel {
+    display: none;
+    padding: 21px;
+    border-top: 1px solid #ccc;
+   
+  }
+  
+  /* Style to show the panel when the accordion is active */
+  .active {
+    display: block;
+  }
+  
+  /* Style for left and right filter sections */
+  .left-filter,
+  .right-filter {
+    display: inline-block;
+    margin-right: 20px; /* Adjust the margin to separate left and right filters */
+  }
+  
+  /* Style for checkboxes */
+  .form-check-label {
+    margin-left: 5px;
+  }
+  /* Add CSS to style labels and dropdowns */
+/* Add CSS to style labels and dropdowns */
+.label-dropdown {
+  align-items: baseline;
+  display: flex;
+  /* justify-content: space-evenly; */
+  }
+  
+  .label-dropdown label {
+    margin-right: 10px;
+    flex-shrink: 0;
+  }
+  
+ /* Increase the size of the dropdowns */
+.form-control {
+  width: 200px; /* Set the desired width */
+   /* Set the desired height */
+   box-sizing: border-box;
+  }
+
+/*   
+  .label-dropdownr1 app-dropdown{
+    position: absolute;
+    left: -6%;
+    margin-top: -1%;
+    width: 25%;
+    flex-grow: 1;
+  }
+  .label-dropdownr2 app-dropdown{
+    position: absolute;
+    left: -6%;
+    margin-bottom: 25%;
+    width: 25%;
+    flex-grow: 1;
+  }
+   .label-dropdownr3 app-dropdown{
+    position: absolute;
+    left: -6%;
+    margin-bottom: 30%;
+    width: 25%;
+    flex-grow: 1;
+  }  */
+
+  .label-dropdown app-dropdown {
+    flex: 1; /* Take up remaining space */
+  }
+
+  /* Add CSS to style the right section */
+.right-filter {
+  margin-left: 50px; /* Add a margin to push the right content to the right */
+  }
+  
+.result-filter-box i{
+  position: relative;
+  left: 83%;
+  color: #3498db;
+}
+.label-dropdown label[for="leftOrigin"],
+.label-dropdown label[for="rightOrigin"] {
+  margin-right: 37px; 
+}
+
+.label-dropdown label[for="leftByStatus"],
+.label-dropdown label[for="rightByStatus"] {
+  margin-right: 13px; 
+}

@@ -1,0 +1,150 @@
+.AHP{
+  width: 70%;
+ 
+  height: 25px;
+
+  }
+  #dropdown12{
+    width: 5%;
+    position: absolute;
+    top: 44%;
+    left: 84%;
+  }
+  .custom-attr{
+    width: 5%;
+    left: 92%;
+    position: absolute;
+    top: 44%;
+  }
+  .wxy{
+    background: #dddddd;
+  }
+  .custon-variable i{
+    /* position: relative;
+    top: -23px;
+    left: -124%; */
+    color: rgb(227, 227, 164);
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 7px;
+  }
+  
+  /* tr:nth-child(even) {
+    background-color: #dddddd;
+  } */
+  .custon-variable {
+    width: 45%;
+    height: 160px;
+    border: 2px solid black;
+    margin-left: 40%;
+    position: absolute;
+    top: 4%;
+  }
+  .cus-var-nav{
+    background-color:#3498db;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      height: 20px;
+      color: white;
+  }
+  
+.express-cust p{
+    position: absolute;
+    margin-left: -8%;
+    margin-top: 2%;
+  }
+  .Espresscust{
+    position: absolute;
+    top: 54px;
+    margin-left: 3%;
+    text-align: center;
+    width: 26%;
+    height: 25px;;
+  }
+  
+  .box-custom{
+    margin-left: 11px;
+    position: absolute;
+    top: -25px;
+    background: white;
+  }    
+
+  
+  .dones1{
+    margin-left: 74%;
+    position: absolute;
+    top: 73px;
+    width: 7%;
+    align-items: center;
+    height: 30px;
+  }
+  
+  .constantvalue p{
+    position: relative;
+    margin-left: -21%;
+    margin-top: -28%;
+  }
+  .const-int{
+    position: absolute;
+    left: 62%;
+    top: 41%;
+    width: 23%;
+  }
+  .Max-power select{
+    left: 695px;
+    height: 28px;
+    width: 14%;
+    position: absolute;
+    top: 73px;
+  }
+  .General select{
+    left: 295px;
+    height: 28px;
+    width: 18%;
+    position: absolute;
+    top: 85px;
+  }
+
+  .variablename p{
+    position: absolute;
+    left: 18px;
+    top: 96px;
+  }
+  .var-name{
+    position: absolute;
+    left: 550px;
+    top: 73px;
+    height: 30px;
+}
+
+.mxt select{
+  left: 550px;
+  height: 28px;
+  width: 16%;
+  position: absolute;
+  top: 73px;
+}
+.thrh select{
+  left: 550px;
+  height: 28px;
+  width: 16%;
+  position: absolute;
+  top: 73px;
+}
+.pl-mi select{
+  position: absolute;
+  left: 750px;
+  top: 73px;
+  width: 50px;
+  height: 28px;
+}

@@ -1,0 +1,264 @@
+.box-history{
+    margin-left: 11px;
+      position: absolute;
+      top: -25px;
+      background: white;
+  }
+  
+  .his-formula p{
+    position: absolute;
+    top: 123px;
+    right: 35%;
+  }
+  .hisformula select{
+    position: absolute;
+    top: 120px;
+    padding: 5px;
+    width: 25%;
+    height: 30px;
+    right: 8%;
+  }
+  .his-formula i{
+    position: absolute;
+    top: 126px;
+    left: 95%;
+    color: rgb(227, 227, 164);
+  }
+  
+  .hislckdropdown2 select{
+    position: absolute;
+    top: 124px;
+    left: 98%;
+    width: 17px;
+    height: 18px;
+  }
+ 
+  .hismax-dev p{
+    position: absolute;
+    left: 3%;
+    top: 88px;
+  }
+   .hismax-dv{
+    position: relative;
+    margin-left: 28%;
+    top: 49px;
+    width: 150%;
+    height: 30px;
+   }
+   .hismax-dev i{
+    right: -185%;
+    top: 24px;
+    position: relative;
+    color: rgb(227, 227, 164);
+   }
+   .hislckdropdown1{
+    /* right: -151%;
+    position: relative;
+    top: 22px;
+    width: 17px; */
+
+    position: absolute;
+    top: 90px;
+    width: 17px;
+    margin-left: 44%;
+  }
+ 
+   .hisopera-content p{
+    position: absolute;
+    left: 3%;
+    top: 48px;
+   }
+   .hisopersdropdowen select{
+    position: absolute;
+    top: 42px;
+    padding: 5px;
+    margin-left: 7%;
+    width: 34%;
+    height: 27px;
+   }
+   .history-box{
+    width: 24%;
+    height: 90px;
+    border: 2px solid rgb(31, 30, 30);
+    position: absolute;
+    left: 67%;
+    top: 4%;
+    border-radius: 16px;
+    background: #F5F5F5;
+    border-width: 1px;
+  
+   }
+  .history-box p{
+    position: absolute;
+    left: -75px;
+      top: 21px;
+  }
+  .takedropdowns p{
+    position: absolute;
+    left: 7px;
+    top: 14px;
+  }
+  .takedropdowns select{
+    position: absolute;
+    left: 53px;
+    top: 15px;
+    height: 25px;
+    border-radius: 8px;
+  }
+  .max-day-history p{
+    position: absolute;
+    left: 110px;
+    top: 15px;
+  }
+  .max-day-history select{
+    position: absolute;
+    left: 150px;
+    top: 15px;
+    height: 25px;
+    border-radius: 8px;
+  }
+  .History-interval p{
+    position: absolute;
+    left: 9px;
+    top: 50px;
+  }
+  .History-interval select{
+    position: absolute;
+    left: 122px;
+    top: 47px;
+    height: 35px;
+    border-radius: 8px;
+  }
+  
+  .daydropdown{
+    display: flex;
+    margin-top: 100px;
+   
+    margin-left: 55px;
+  }
+  .daydropdowns p{
+    position: absolute;
+    top: 133px;
+    left: 3%;
+  }
+  .daydropdowns select{
+    position: absolute;
+    top: 132px;
+    left: 17%;
+    height: 35px;
+    width: 90px;
+  }
+  .daydropdown select{
+    height: 35px;
+    position: absolute;
+    top: 132px;
+    left: 32%;
+    width: 175px;
+  } 
+  .dones1{
+    margin-left: 36%;
+    position: absolute;
+    top: 86px;
+    width: 8%;
+    align-items: center;
+    height: 30px;
+  }
+  
+  .constantvalue p{
+    position: relative;
+      margin-left: -21%;
+      margin-top: 11%;
+  }
+  .const-int{
+    position: relative;
+    margin-left: 32%;
+    top: -48px;
+    width: 131%;
+    height: 30px;
+  }
+  .Max-power select{
+    margin-left: 12px;
+    height: 28px;
+  }
+  .General select{
+    margin-left: 29px;
+    height: 28px;
+    width: 54%;
+  }
+  .dones1for{
+    margin-left: 80%;
+    position: absolute;
+    top: 117px;
+    width: 7%;
+    align-items: center;
+    height: 30px;
+  }
+  .const-for{
+    position: absolute;
+    margin-left: 57%;
+    top: 117px;
+    width: 22%;
+    height: 30px;
+  }
+
+
+  .Max-powerr select{
+    left: 331px;
+    height: 28px;
+    width: 17%;
+    position: absolute;
+    top: 85px;
+  }
+  .Generall select{
+    left: 325px;
+    height: 28px;
+    width: 11%;
+    position: absolute;
+    top: 85px;
+  }
+
+  .Max-powerss select{
+    left: 756px;
+    height: 27px;
+    width: 12%;
+    position: absolute;
+    top: 116px;
+  }
+  .Generalss select{
+    left: 756px;
+    height: 27px;
+    width: 12%;
+    position: absolute;
+    top: 116px;
+  }
+  .thrh select{
+    left: 160px;
+    height: 28px;
+    width: 18%;
+    position: absolute;
+    top: 85px;
+  }
+  
+  .mxts select{
+    left: 584px;
+    height: 28px;
+    width: 18%;
+    position: absolute;
+    top: 116px;
+  }
+  .thrhs select{
+    left: 584px;
+    height: 28px;
+    width: 19%;
+    position: absolute;
+    top: 116px;
+  }
+  .mxt select{
+    left: 160px;
+    height: 28px;
+    width: 19%;
+    position: absolute;
+    top: 85px;
+  }
+
+  

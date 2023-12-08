@@ -1,0 +1,114 @@
+<div class="rule-definitions-container">
+  <p class="accordion" (click)="toggleAccordion()">Rule Definitions</p>
+  <i class="fas fa-plus" (click)="toggleForm()"></i>
+
+  <div class="panel" [ngClass]="{ 'active': isAccordionOpen  }">
+
+    <!-- Content of the Rule Definitions component goes here -->
+
+
+
+    <div class="blue-navbar" *ngIf="isFormSubmitted  && isRuleDropdownVisible">
+      <span>{{ selectedRegister }}</span><b>| </b>
+      <span>{{ selectedRegisterGroup }}</span>
+      <i class="fas fa-trash" (click)="onDelete()"></i> <!-- Delete icon -->
+      <span class="condition-container">
+        Condition
+        <!-- "Rule" dropdown -->
+
+      </span>
+      <div class="dropdown">
+        <span>Rule</span>
+        <i class="fa fa-caret-down"></i>
+        <div class="dropdown-content">
+          <a (click)="addTest('Sum Test')">Sum Test</a>
+          <a (click)="addTest('Constant Test')">Constant Test</a>
+          <a (click)="addTest('Spike Test')">Spike Test</a>
+          <a (click)="addTest('Missing Data Test')">Missing Data Test</a>
+          <a (click)="addTest('History Test')">History Test</a>
+          <a (click)="addTest('Control Test')">Control Test</a>
+          <a (click)="addTest('Custom Test')">Custom Test</a>
+        </div>
+       
+      </div>
+      <i class="fa-solid fa-circle-chevron-down"    (click)="toggleAccordion()"></i>
+    </div>
+
+    <!-- <div class="rules-container" *ngIf="selectedRule">
+        <div *ngFor="let instance of getRuleInstances(selectedRule);  let i = index">
+          <div class="rule-instance">
+            <ng-container *ngIf="selectedRule === 'sumTest'">
+              <app-sum-test></app-sum-test>
+            </ng-container>
+            <ng-container *ngIf="selectedRule === 'constantTest'">
+              <app-constant-test></app-constant-test>
+            </ng-container>
+            <ng-container *ngIf="selectedRule === 'spikeTest'">
+              <app-spike-test></app-spike-test>
+            </ng-container>
+            <ng-container *ngIf="selectedRule === 'missingDataTest'">
+              <app-missing-data-test></app-missing-data-test>
+            </ng-container>
+            <ng-container *ngIf="selectedRule === 'historyTest'">
+              <app-history-test></app-history-test>
+            </ng-container>
+            <ng-container *ngIf="selectedRule === 'controlTest'">
+              <app-control-test></app-control-test>
+            </ng-container>
+            <ng-container *ngIf="selectedRule === 'customTest'">
+              <app-custom-test></app-custom-test>
+            </ng-container>
+     
+      </div>   
+  
+  
+    </div> 
+    </div>  
+     -->
+
+
+
+
+
+
+
+
+    <div class="rectangular-box-container">
+      <ng-container *ngFor="let test of selectedTests; let i = index">
+        <div class="rectangular-box">
+          <a class="box-contents">{{ test.type }}</a>
+          <i class="fa fa-trash delete-icon" (click)="removeTest(i)"></i>
+  
+          <div [ngSwitch]="test.type">
+            
+            <app-sum-test *ngSwitchCase="'Sum Test'"></app-sum-test>
+            <app-constant-test *ngSwitchCase="'Constant Test'"></app-constant-test>
+            <app-spike-test *ngSwitchCase="'Spike Test'"></app-spike-test>
+            <app-missing-data-test *ngSwitchCase="'Missing Data Test'"></app-missing-data-test>
+            <app-history-test *ngSwitchCase="'History Test'"></app-history-test>
+            <app-control-test *ngSwitchCase="'Control Test'"></app-control-test>
+            <app-custom-test *ngSwitchCase="'Custom Test'"></app-custom-test>
+
+          </div>
+        </div>
+
+
+      </ng-container>
+    </div>
+
+
+
+
+
+
+
+
+
+  </div>
+
+
+  <!-- Included the Registration Form component with formSubmitted event -->
+  <app-registration-form (formSubmitted)="onFormSubmitted($event)" *ngIf="isFormOpen"></app-registration-form>
+
+</div>
+

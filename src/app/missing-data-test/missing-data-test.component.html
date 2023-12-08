@@ -1,0 +1,260 @@
+<div class="thres-hold" >
+    <p>Threshold</p>
+    <input type="text" class="threshold"  placeholder="Provide threshold with units or in %"   *ngIf="selectedOption2 !== 'Constant'  && selectedOption2 !== 'Attribute' && selectedOption2 !== 'ResultFrom'">
+    <i class="fa-solid fa-lock" *ngIf="selectedOption2 !== 'Constant'  && selectedOption2 !== 'Attribute' && selectedOption2 !== 'ResultFrom'"></i>
+
+
+    <select class="misslckdropdown1" name="dropdown1" [(ngModel)]="selectedOption2">
+      
+      <option ></option>
+      <option value="Constant">Constant</option>
+      <option value="Attribute">Attribute</option>
+ 
+     
+    </select>
+   
+  
+
+  </div>
+
+  <div class="min-cover" >
+    <p>Min Coverage</p>
+    <input type="text" class="mincover"  placeholder="Provide min expected coverage"   *ngIf="selectedOption1 !== 'Constant'  && selectedOption1 !== 'Attribute' && selectedOption1 !== 'ResultFrom'">
+    <i class="fa-solid fa-lock" *ngIf="selectedOption1 !== 'Constant'  && selectedOption1 !== 'Attribute' && selectedOption1 !== 'ResultFrom'"></i>
+
+    <select class="misslckdropdown2" name="dropdown1" [(ngModel)]="selectedOption1" >
+      
+      <option ></option>
+      <option value="Constant">Constant</option>
+      <option value="Attribute">Attribute</option>
+   
+     
+    </select>
+
+
+  </div>
+
+  <div class="seque-per"  >
+    <p>Sequential Periods</p>
+    <input type="text" class="sequeper"  placeholder="Provide max num of allowes seq. periods"  *ngIf="selectedOption !== 'Constant'  && selectedOption !== 'Attribute' && selectedOption !== 'ResultFrom'">
+    <i class="fa-solid fa-lock" *ngIf="selectedOption !== 'Constant'  && selectedOption !== 'Attribute' && selectedOption !== 'ResultFrom'"> </i>
+    <select class="misslckdropdown3" name="dropdown1" [(ngModel)]="selectedOption" >
+      
+      <option ></option>
+      <option value="Constant">Constant</option>
+      <option value="Attribute">Attribute</option>
+    
+     
+    </select>
+ 
+
+  </div>
+
+  <div class="misscheckboxe"  >
+    <input type="checkbox" id="missCheckbox" />
+    <label for="issdatatestCheckbox">Check PowerDown/PowerUp event</label>
+  </div>
+  <div class="missevent-log" >
+    <p>Event Log</p>
+    <div class="misseventlog">
+      <select>
+        <option value="">Select PowerUp/PowerDown event</option>
+        <option value="">Option2</option>
+        <option value="">Option3</option>
+      </select>
+      <i class="fa-solid fa-lock"></i>
+    </div>
+  </div>
+
+
+  
+  <div *ngIf="selectedOption2 === 'Constant'">
+
+
+    <!-- Additional dropdown for Constant -->
+    <select class="dones1" name="constantDropdown">
+      
+     
+                <option value="option1">Units</option>
+                <option value="option2">Kwh</option>
+                <option value="option3">wh</option>
+                <option value="option1">V</option>
+                <option value="option2">Amp</option>
+    </select>
+  
+    <div class="constantvalue">
+      <!-- <p>Constant Value</p> -->
+      <input type="text" class="const-int"  placeholder="Provide Constant value with units"  >
+  
+  
+  </div>
+  
+  </div>
+
+  <div *ngIf="selectedOption2 === 'Attribute'">
+    <div class="Max-powerr">
+     
+      <select   [(ngModel)]="selectedOption3"   >
+        <option value="ValidationAttribute">Validation Attribute </option>
+        <option value="GeneralAttribute">General Attribute</option>
+      </select>
+    </div>
+    
+    <!-- <div class="Generall">
+   
+      <select name="" id=""   [(ngModel)]="selectedOption4"  *ngIf="selectedOption4 !== 'GeneralAttribute'">
+        <option value="GeneralAttribute">General Attribute</option>
+      </select>
+    </div> -->
+   
+  </div>
+
+
+
+
+
+
+
+
+
+  
+  
+  <div *ngIf="selectedOption1 === 'Constant'">
+
+
+    <!-- Additional dropdown for Constant -->
+    <select class="dones1min" name="constantDropdown">
+      
+     
+                <option value="option1">Units</option>
+                <option value="option2">Kwh</option>
+                <option value="option3">wh</option>
+                <option value="option1">V</option>
+                <option value="option2">Amp</option>
+    </select>
+  
+    <div class="constantvalue">
+      <!-- <p>Constant Value</p> -->
+      <input type="text" class="const-min"  placeholder="Provide Constant value with units"  >
+  
+  
+  </div>
+</div>
+
+
+
+
+<div *ngIf="selectedOption1 === 'Attribute'">
+  <div class="Max-powerss"  >
+    <select  [(ngModel)]="selectedOption7" >
+      <option value="ValidationAttribute">Validation Attribute </option>
+      <option value="GeneralAttribute">General Attribute</option>
+    </select>
+  </div>
+  
+  <!-- <div class="Generalss">
+   
+    <select name="" id="" [(ngModel)]="selectedOption8"  *ngIf="selectedOption8 !== 'GeneralAttribute'">
+      <option value="GeneralAttribute">General Attribute</option>
+    </select>
+  </div> -->
+ 
+</div>
+
+
+
+
+
+
+
+<div *ngIf="selectedOption === 'Constant'">
+
+
+  <!-- Additional dropdown for Constant -->
+  <select class="dones1seq" name="constantDropdown">
+    
+   
+              <option value="option1">Units</option>
+              <option value="option2">Kwh</option>
+              <option value="option3">wh</option>
+              <option value="option1">V</option>
+              <option value="option2">Amp</option>
+  </select>
+
+  <div class="constantvalue">
+    <!-- <p>Constant Value</p> -->
+    <input type="text" class="const-seq"  placeholder="Provide Constant value with units"  >
+
+
+</div>
+</div>
+
+
+
+<div *ngIf="selectedOption === 'Attribute'">
+  <div class="Max-powe"  >
+    <select  [(ngModel)]="selectedOption5" >
+      <option value="ValidationAttribute">Validation Attribute </option>
+      <option value="GeneralAttribute">General Attribute</option>
+    </select>
+  </div>
+  
+  <!-- <div class="Genera">
+   
+    <select name="" id="" [(ngModel)]="selectedOption6"  *ngIf="selectedOption6 !== 'GeneralAttribute'">
+      <option value="GeneralAttribute">General Attribute</option>
+    </select>
+  </div> -->
+ 
+</div>
+
+
+
+
+
+
+  
+<div  class="mxt" *ngIf="selectedOption3 === 'ValidationAttribute'">
+  <select name="" id="">
+    <option value="MaxPowerThreshold">MaxPowerThreshold</option>
+  </select>
+
+</div>
+
+<div  class="thrh" *ngIf="selectedOption3 === 'GeneralAttribute'">
+  <select name="" id="">
+    <option value="">Threshold</option>
+  </select>
+
+</div>
+
+
+
+<div  class="mxtss" *ngIf="selectedOption5 === 'ValidationAttribute'">
+  <select name="" id="">
+    <option value="MaxPowerThreshold">MaxPowerThreshold</option>
+  </select>
+
+</div>
+
+<div  class="thrhss" *ngIf="selectedOption5 === 'GeneralAttribute'">
+  <select name="" id="">
+    <option value="">Threshold</option>
+  </select>
+
+</div>
+
+
+<div  class="mxts" *ngIf="selectedOption7 === 'ValidationAttribute'">
+  <select name="" id="">
+    <option value="MaxPowerThreshold">MaxPowerThreshold</option>
+  </select>
+
+</div>
+
+<div  class="thrhs" *ngIf="selectedOption7 === 'GeneralAttribute'">
+  <select name="" id="">
+    <option value="">Threshold</option>
+  </select>
+
+</div>

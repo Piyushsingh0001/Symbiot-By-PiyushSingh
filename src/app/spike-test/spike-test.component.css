@@ -1,0 +1,246 @@
+
+.box-spike{
+    margin-left: 11px;
+    position: absolute;
+    top: -25px;
+    background: white;
+  }
+  #spikecheckbox{
+    margin-top: 28px;
+    margin-left: -69%;
+  }
+  .min-fact p{
+    position: absolute;
+    top: 20px;
+    left: 39%;
+  }
+  .minfact{
+    margin-left: 46%;
+    position: absolute;
+    top: 19px;
+    width: 33%;
+  }
+  .min-fact i{
+    margin-left: 80%;
+    position: absolute;
+    top: 29px;
+    color: rgb(227, 227, 164);
+  }
+  
+  
+  .spklckdropdown1{
+    margin-left: 83%;
+    position: absolute;
+    top: 26px;
+    width: 17px
+  
+  }
+
+  .max-fact p{
+    position: absolute;
+    top: 78px;
+    left: 39%;
+  }
+  .maxfact{
+    margin-left: 46%;
+    position: absolute;
+    top: 78px;
+    width: 33%;
+  }
+  .max-fact i{
+    margin-left: 80%;
+    position: absolute;
+    top: 88px;
+    color: rgb(227, 227, 164);
+  }
+  
+  
+  .spklckdropdown2{
+    margin-left: 83%;
+    position: absolute;
+    top: 85px;
+    width: 17px;
+  
+  }
+
+  
+  .ma-devv p{
+    position: absolute;
+    top: 127px;
+    left: 39%;
+  }
+  .madevv{
+    margin-left: 46%;
+    position: absolute;
+    top: 129px;
+    width: 33%;
+    height: 28px;
+  }
+  .ma-devv i{
+    margin-left: 80%;
+    position: absolute;
+    top: 136px;
+    color: rgb(227, 227, 164);
+  }
+  .spklckdropdown3{
+    margin-left: 83%;
+    position: absolute;
+    top: 132px;
+    width: 17px;
+  
+  }
+ 
+
+  .dones1{
+    margin-left: 74%;
+    position: absolute;
+    top: 24px;
+    width: 8%;
+    align-items: center;
+    height: 30px;
+  }
+  
+  .constantvalue p{
+    position: relative;
+      margin-left: -21%;
+      margin-top: 11%;
+  }
+  .const-int{
+    position: absolute;
+    left: 54%;
+    top: 13%;
+    width: 29%;
+  }
+
+
+  .const-maxf{
+    position: absolute;
+    left: 54%;
+    top: 44%;
+    width: 29%;
+  }
+  .dones1maxf{
+    margin-left: 74%;
+    position: absolute;
+    top: 79px;
+    width: 8%;
+    align-items: center;
+    height: 30px;
+  }
+  .const-dev{
+    position: absolute;
+    left: 54%;
+    top: 71%;
+    width: 29%;
+  }
+  .dones1dev{
+    margin-left: 74%;
+    position: absolute;
+    top: 126px;
+    width: 8%;
+    align-items: center;
+    height: 30px;
+  }
+  
+
+
+
+
+
+
+
+
+  
+ 
+  .Max-powerr select{
+    left: 650px;
+    height: 28px;
+    width: 18%;
+    position: absolute;
+    top: 20px;
+  }
+  .Generall select{
+    left: 620px;
+    height: 28px;
+    width: 18%;
+    position: absolute;
+    top: 20px;
+  }
+  .Max-powerss select{
+    left: 650px;
+    height: 28px;
+    width: 18%;
+    position: absolute;
+    top: 75px;
+  }
+  .Generalss select{
+    left: 625px;
+    height: 28px;
+    width: 18%;
+    position: absolute;
+    top: 75px;
+  }
+  
+  
+  
+ 
+ 
+  .mxt select{
+    left: 477px;
+    height: 28px;
+    width: 19%;
+    position: absolute;
+    top: 19px;
+  }
+  .thrh select{
+    left: 477px;
+    height: 28px;
+    width: 19%;
+    position: absolute;
+    top: 19px;
+  }
+  
+  .mxts select{
+    left: 477px;
+    height: 28px;
+    width: 19%;
+    position: absolute;
+    top: 75px;
+  }
+  .thrhs select{
+    left: 477px;
+    height: 28px;
+    width: 19%;
+    position: absolute;
+    top: 75px;
+  }
+
+  .mxtss select{
+    left: 477px;
+    height: 28px;
+    width: 19%;
+    position: absolute;
+    top: 127px;
+  }
+  .thrhss select{
+    left: 477px;
+    height: 28px;
+    width: 19%;
+    position: absolute;
+    top: 127px;
+  }
+
+  .Max-powe select{
+    left: 650px;
+    height: 28px;
+    width: 18%;
+    position: absolute;
+    top: 127px;
+  }
+  .Genera select{
+    left: 625px;
+    height: 28px;
+    width: 18%;
+    position: absolute;
+    top: 127px;
+  }

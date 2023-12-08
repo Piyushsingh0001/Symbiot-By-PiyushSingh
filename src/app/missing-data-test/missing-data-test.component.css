@@ -1,0 +1,270 @@
+.box-missdata{
+    margin-left: 11px;
+    position: absolute;
+    top: -25px;
+    background: white;
+  }
+  .thres-hold p{
+    position: absolute;
+    top: 38px;
+    left: 3%;
+  }
+  .threshold {
+    margin-left: 4%;
+    position: absolute;
+    top: 34px;
+    width: 30%;
+  }
+  .thres-hold i{
+    margin-left: 35%;
+    position: absolute;
+    top: 42px;
+    color: rgb(227, 227, 164);
+  }
+  
+  .misslckdropdown1{
+    margin-left: 40%;
+    position: absolute;
+    top: 41px;
+    width: 17px;
+  }
+
+  .min-cover p{
+    position: absolute;
+    top: 78px;
+    left: 3%;
+  }
+  .mincover{
+    margin-left: 4%;
+    position: absolute;
+    top: 77px;
+    width: 30%;
+  }
+  .min-cover i{
+    margin-left: 35%;
+    position: absolute;
+    top: 85px;
+    color: rgb(227, 227, 164);
+  }
+  .misslckdropdown2{
+    margin-left: 40%;
+    position: absolute;
+    top: 82px;
+    width: 17px;
+  
+  }
+
+  .seque-per p{
+    position: absolute;
+    top: 122px;
+    left: 3%;
+  }
+  .sequeper{
+    margin-left: 4%;
+    position: absolute;
+    top: 120px;
+    width: 30%;;
+  }
+  .seque-per i{
+    margin-left: 35%;
+    position: absolute;
+    top: 131px;
+    color: rgb(227, 227, 164);
+  }
+  .misslckdropdown3{
+    margin-left: 40%;
+    position: absolute;
+    top: 124px;
+    width: 17px;
+  }
+ 
+  
+  .misscheckboxe label{
+    position: absolute;
+    top: 47px;
+    left: 63%;
+  }
+  #missCheckbox{
+    position: absolute;
+      right: 38%;
+      top: 52px;
+  }
+  .missevent-log p{
+    position: absolute;
+    top: 103px;
+    left: 57%;
+  }
+  .misseventlog select{
+    position: absolute;
+    top: 105px;
+    left: 66%;
+    height: 25px;
+    
+  }
+  .misseventlog i{
+    position: absolute;
+    top: 109px;
+    right: 1%;
+    color: rgb(227, 227, 164);
+  }
+  
+  .dones1{
+    margin-left: 33%;
+    position: absolute;
+    top: 39px;
+    width: 7%;
+    align-items: center;
+    height: 30px;
+  }
+  
+  .constantvalue p{
+    position: relative;
+      margin-left: -21%;
+      margin-top: 11%;
+  }
+  .const-int{
+    position: absolute;
+    left: 19%;
+    top: 22%;
+    width: 29%;
+  }
+  .Max-power select{
+    margin-left: 12px;
+    height: 28px;
+  }
+  .General select{
+    margin-left: 29px;
+    height: 28px;
+    width: 54%;
+  }
+  .dones1min{
+    margin-left: 33%;
+    position: absolute;
+    top: 79px;
+    width: 7%;
+    align-items: center;
+    height: 30px;
+  }
+
+  .const-min{
+    position: absolute;
+    left: 19%;
+    top: 44%;
+    width: 29%;
+  }
+
+  .dones1seq{
+    margin-left: 33%;
+    position: absolute;
+    top: 118px;
+    width: 7%;
+    align-items: center;
+    height: 30px;
+  }
+
+  .const-seq{
+    position: absolute;
+    left: 19%;
+    top: 66%;
+    width: 29%;
+  }
+
+
+
+
+
+  
+  
+ 
+  .Max-powerr select{
+    left: 340px;
+    height: 28px;
+    width: 17%;
+    position: absolute;
+    top: 35px;
+  }
+  .Generall select{
+    left: 340px;
+    height: 28px;
+    width: 18%;
+    position: absolute;
+    top: 35px;
+  }
+  .Max-powerss select{
+    left: 340px;
+    height: 28px;
+    width: 17%;
+    position: absolute;
+    top: 75px;
+  }
+  .Generalss select{
+    left: 340px;
+    height: 28px;
+    width: 18%;
+    position: absolute;
+    top: 75px;
+  }
+  
+  
+  
+ 
+ 
+  .mxt select{
+    left: 175px;
+    height: 28px;
+    width: 18%;
+    position: absolute;
+    top: 35px;
+  }
+  .thrh select{
+    left: 175px;
+    height: 28px;
+    width: 18%;
+    position: absolute;
+    top: 35px;
+  }
+  
+  .mxts select{
+    left: 174px;
+    height: 28px;
+    width: 18%;
+    position: absolute;
+    top: 75px;
+  }
+  .thrhs select{
+    left: 174px;
+    height: 28px;
+    width: 18%;
+    position: absolute;
+    top: 75px;
+  }
+
+  .mxtss select{
+    left: 174px;
+    height: 28px;
+    width: 18%;
+    position: absolute;
+    top: 121px;
+  }
+  .thrhss select{
+    left: 174px;
+    height: 28px;
+    width: 18%;
+    position: absolute;
+    top: 121px;
+  }
+
+  .Max-powe select{
+    left: 341px;
+    height: 28px;
+    width: 17%;
+    position: absolute;
+    top: 121px;
+  }
+  .Genera select{
+    left: 341px;
+    height: 28px;
+    width: 18%;
+    position: absolute;
+    top: 121px;
+  }
